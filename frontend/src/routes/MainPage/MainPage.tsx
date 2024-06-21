@@ -112,18 +112,19 @@ export default function App() {
   };
 
   return (
-    <div className='relative flex flex-col items-center justify-between w-full h-full text-white bg-cover bg-[#0E0F12]'>
+    <div className='relative flex flex-col items-center justify-between w-full h-full text-white bg-cover bg-[#181E33]'>
       <div className='w-full flex flex-col items-center justify-center gap-5'>
-        <h1 className='w-full py-3 font-semibold text-[17px] text-center'>
+        <h1 className='w-full py-3 font-semibold text-[17px] text-center lowercase'>
           IQ Option
         </h1>
         {step === 1 && (
-          <div className='mt-2 relative w-full h-full flex flex-col items-center justify-center max-w-[320px] text-center gap-2'>
+          <div className='mt-2 relative w-full h-full flex flex-col items-center justify-center max-w-[360px] text-center gap-2'>
             <h2 className='font-bold text-center text-2xl mx-[25px] z-20'>
-              Profitability on the rise
+              Trade CFDs on Stocks, Forex and Crypto
             </h2>
-            <p className='text-[#C0C1C5] z-20 text-center'>
-              Register and get $10,000 on a demo account for learning to trade
+            <p className='text-[#C0C1C5] z-20 text-center text-[15px] leading-[19.5px]'>
+              The most convenient interface. Get access to trade over 100 global
+              trading assets
             </p>
           </div>
         )}
@@ -139,17 +140,17 @@ export default function App() {
 
       {step === 0 && (
         <div className='mt-[-10vh] flex items-center justify-center h-full w-full'>
-          <img src='/logo.svg' alt='logotype' width={194} height={24} />
+          <img src='/logo.svg' alt='logotype' width={102.32} height={99} />
         </div>
       )}
 
       {step === 1 && (
-        <div className='w-full flex flex-col items-center justify-center max-w-[300px] text-cente gap-5'>
+        <div className='w-full flex flex-col items-center justify-center max-w-[335px] text-cente gap-5'>
           <img
             src={`/images/png/en/1.png`}
             alt='First'
-            width={312}
-            height={192}
+            width={335}
+            height={170}
           />
         </div>
       )}
@@ -159,8 +160,8 @@ export default function App() {
           <img
             src={`/images/png/en/2.png`}
             alt='Second'
-            width={312}
-            height={192}
+            width={291}
+            height={351}
           />
         </div>
       )}

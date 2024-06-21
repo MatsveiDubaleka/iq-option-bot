@@ -8,7 +8,7 @@ export default function Button({
   return (
     <button
       onClick={onClick}
-      className='w-[90%] max-w-[400px] h-[48px] bg-[#098DF8] outline-none text-white rounded-lg font-semibold'
+      className='w-[90%] max-w-[400px] h-[48px] bg-[#E05B1E] outline-none text-white rounded-lg font-semibold'
     >
       {title}
     </button>
