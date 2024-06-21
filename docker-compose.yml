@@ -7,7 +7,7 @@ services:
     restart: always
     environment:
       - BOT_TOKEN=6001994688:AAFGfTXD4rscEW9F3kRwLNIi1ViGzV86gA8
-      - WEB_APP_URL=https://olymp-bot-official.com/
+      - WEB_APP_URL=
     ports:
       - 5000:5000
   web:
